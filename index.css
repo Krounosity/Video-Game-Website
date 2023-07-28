@@ -1,3 +1,10 @@
+html {
+  scroll-behavior: smooth;
+}
+:target {
+  background-color: beige;
+}
+
 .title {
   font-size: 3rem;
   font-weight: bold;
@@ -5,10 +12,4 @@
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-}
-html {
-  scroll-behavior: smooth;
-}
-:target {
-  background-color: beige;
 }
