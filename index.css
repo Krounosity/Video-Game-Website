@@ -1,15 +1,28 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 :target {
   background-color: beige;
 }
 
 .title {
-  font-size: 3rem;
-  font-weight: bold;
-  color: #000000;
   text-align: center;
-  margin-top: 10px;
+  font-family: "Space Mono", monospace;
+  font-size: clamp(3rem, 10vw, 10rem);
+  color: white;
+  padding: 0rem clamp(1rem, 2vw, 3rem);
+  background-color: black;
+  margin-top: 0px;
   margin-bottom: 10px;
+}
+
+.title:hover {
+  background-color: white;
+  color: black;
 }
