@@ -48,23 +48,37 @@ body {
   justify-content: center;
 }
 
-.gameImg {
+/* Game Card */
+.game-card {
+  min-width: 300px;
+  max-width: 720px;
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all 0.3s;
+  overflow: hidden; /* To ensure the content inside doesn't overflow */
+}
+
+.game-card:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.3);
+}
+
+.game-card img {
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto; /* Centers the image */
-  width: 70%;
-  height: 100;
-  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0; /* Rounded corners at the top only */
 }
 
-.gamePara {
-  padding: 1.5rem 8rem 3rem;
+.game-card p {
+  padding: 1.5rem;
   font-size: 1.5rem;
   font-family: "Space Mono", monospace;
   word-spacing: 0rem;
   background-color: rgba(218, 246, 246, 0.871);
-  border-radius: 1rem;
-  margin: 6rem;
+  border-radius: 0 0 20px 20px; /* Rounded corners at the bottom only */
+  margin: 0; /* Remove any default margins to avoid extra spacing */
   text-align: justify;
 }
