@@ -1,4 +1,4 @@
-// Hacked Text Effect
+// * Hacked Text Effect
 const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 let interval = null;
@@ -27,3 +27,17 @@ document.getElementById("title").onmouseover = (event) => {
     iteration += 1 / 3;
   }, 30);
 };
+
+// * ScrollReveal
+// Common reveal options to create reveal animations
+ScrollReveal({
+  // reset: true,
+  distance: "60px",
+  duration: 1250,
+  delay: 200,
+});
+
+ScrollReveal().reveal(".game-card", {
+  delay: 300,
+  origin: "bottom",
+});
