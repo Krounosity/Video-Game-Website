@@ -129,7 +129,11 @@ body {
 :target {
   background: #f5f5f5;
 }
+<<<<<<< HEAD
 <<<<<<< HEAD:index.css
+=======
+<<<<<<<< HEAD:index.css
+>>>>>>> d3bbcf60d7f07c2dd2f7536a75ef9a38ba60f641
 .game_title{
   font-family: "Space Mono",monospace;
   font-size: 3rem;
@@ -142,5 +146,10 @@ body {
   color: white;
   -webkit-text-stroke: 2px black;
 }
+<<<<<<< HEAD
 =======
 >>>>>>> d3bbcf60d7f07c2dd2f7536a75ef9a38ba60f641:static/css/index.css
+=======
+========
+>>>>>>>> d3bbcf60d7f07c2dd2f7536a75ef9a38ba60f641:static/css/index.css
+>>>>>>> d3bbcf60d7f07c2dd2f7536a75ef9a38ba60f641
