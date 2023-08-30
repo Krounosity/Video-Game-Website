@@ -1,0 +1,146 @@
+html {
+  scroll-behavior: smooth;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.title {
+  text-align: center;
+  font-family: "Space Mono", monospace;
+  font-size: clamp(3rem, 10vw, 10rem);
+  color: white;
+  padding: 0rem clamp(1rem, 2vw, 3rem);
+  background-color: black;
+  margin-top: 10px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.title:hover {
+  background-color: white;
+  color: black;
+}
+
+/* Table of Contents */
+.ToC {
+  max-width: 720px;
+  margin: 20px auto;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  font-family: "Space Mono",monospace;
+}
+.ToC h2 {
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.ToC ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.ToC li {
+  margin-bottom: 10px;
+}
+.ToC a {
+  display: block;
+  padding: 10px;
+  font-size: 1.2rem;
+  color: #333;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.ToC a:hover {
+  background-color: #e5e5e5;
+}
+
+/* Games Section */
+.games {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.game {
+  display: grid;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+}
+
+/* Game Title */
+.game-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+.game-link {
+  color: #21ac62;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.game-link:hover {
+  color: #3700ff;
+}
+
+/* Game Card */
+.game-card {
+  min-width: 300px;
+  max-width: 720px;
+  background-image: linear-gradient(163deg, #00ff75 0%, #3700ff 100%);
+  border-radius: 20px;
+  transition: all 0.3s;
+  overflow: hidden; /* To ensure the content inside doesn't overflow */
+}
+.game-card:hover {
+  box-shadow: 0px 0px 30px 1px rgba(0, 255, 117, 0.3);
+}
+.game-card img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto; /* Centers the image */
+  width: 100%;
+  height: auto;
+  border-radius: 20px 20px 0 0; /* Rounded corners at the top only */
+}
+.game-card p {
+  padding: 1.5rem;
+  font-size: 1.5rem;
+  font-family: "Space Mono", monospace;
+  word-spacing: 0rem;
+  background-color: rgba(218, 246, 246, 0.871);
+  border-radius: 0 0 20px 20px; /* Rounded corners at the bottom only */
+  margin: 0; /* Remove any default margins to avoid extra spacing */
+  text-align: justify;
+}
+:target {
+  background: #f5f5f5;
+}
+<<<<<<< HEAD:index.css
+.game_title{
+  font-family: "Space Mono",monospace;
+  font-size: 3rem;
+}
+.game_title a{
+  text-decoration: none;
+  color: black;
+}
+.game_title a:hover{
+  color: white;
+  -webkit-text-stroke: 2px black;
+}
+=======
+>>>>>>> d3bbcf60d7f07c2dd2f7536a75ef9a38ba60f641:static/css/index.css
